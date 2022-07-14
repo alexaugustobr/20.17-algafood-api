@@ -1,9 +1,5 @@
 package com.algaworks.algafood.infrastructure.service.storage;
 
-import java.net.URL;
-
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.algaworks.algafood.core.storage.StorageProperties;
 import com.algaworks.algafood.domain.service.FotoStorageService;
 import com.amazonaws.services.s3.AmazonS3;
@@ -11,6 +7,9 @@ import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.DeleteObjectRequest;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.net.URL;
 
 public class S3FotoStorageService implements FotoStorageService {
 
