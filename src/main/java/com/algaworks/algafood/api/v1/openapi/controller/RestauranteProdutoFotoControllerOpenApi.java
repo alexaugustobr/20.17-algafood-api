@@ -14,7 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 
-@Api(tags = "ProdutosFotos")
+@Api(tags = "Produtos")
 public interface RestauranteProdutoFotoControllerOpenApi {
 
 	@ApiOperation("Atualiza a foto do produto de um restaurante")
